@@ -1,0 +1,177 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    border-bottom: 3px solid #4caf50;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #4caf50;
+}
+
+.banner {
+    background: url('banner.jpg') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.banner-content {
+    max-width: 600px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+.menu {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.menu .card {
+    background: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.menu .card:hover {
+    transform: translateY(-10px);
+}
+
+.menu .card img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.menu .card h3 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+.menu .card p {
+    color: #555;
+}
+
+.menu .card button {
+    background: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.menu .card button:hover {
+    background: #45a049;
+}
+
+.contato {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contato form {
+    max-width: 600px;
+    margin: auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.contato form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.contato form input,
+.contato form textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contato form textarea {
+    height: 100px;
+}
+
+.contato form button {
+    background: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.contato form button:hover {
+    background: #45a049;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
