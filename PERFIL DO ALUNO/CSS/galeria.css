@@ -1,0 +1,76 @@
+
+/* Estilos CSS para o documento */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte para todo o corpo do documento */
+    background-color: #f0f0f0; /* Define a cor de fundo do corpo do documento */
+    margin: 0; /* Remove as margens padrão */
+    padding: 0; /* Remove os preenchimentos padrão */
+}
+
+.container {
+    width: 80%; /* Define a largura máxima da área de conteúdo */
+    margin: 20px auto; /* Define margens automáticas para centralizar a área de conteúdo */
+    background-color: #fff; /* Define a cor de fundo da área de conteúdo */
+    padding: 20px; /* Define o preenchimento interno da área de conteúdo */
+    border-radius: 8px; /* Adiciona bordas arredondadas à área de conteúdo */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave ao redor da área de conteúdo */
+}
+
+header {
+    text-align: center; /* Centraliza o texto dentro do elemento header */
+    margin-bottom: 20px; /* Adiciona uma margem inferior para separar do próximo elemento */
+}
+
+.profile {
+    display: flex; /* Transforma o elemento em um container flexível */
+    align-items: center; /* Centraliza verticalmente os itens dentro do container flexível */
+    justify-content: space-around; /* Distribui igualmente os itens horizontalmente */
+    padding: 20px; /* Adiciona preenchimento interno para separar os elementos */
+    border: 1px solid #ddd; /* Adiciona uma borda fina ao redor do elemento */
+    border-radius: 4px; /* Adiciona bordas arredondadas ao elemento */
+}
+
+.profile-picture img {
+    width: 100px; /* Define a largura da imagem de perfil */
+    height: 100px; /* Define a altura da imagem de perfil */
+    border-radius: 50%; /* Adiciona um formato circular à imagem de perfil */
+    object-fit: cover; /* Redimensiona a imagem para cobrir a área sem distorcer */
+    border: 2px solid #ddd; /* Adiciona uma borda fina ao redor da imagem */
+}
+
+.profile-details {
+    flex: 1; /* Faz com que o elemento ocupe todo o espaço disponível no container flexível */
+    margin-left: 20px; /* Adiciona uma margem à esquerda para separar dos outros elementos */
+}
+
+footer p{
+    text-align: center; /* Centraliza o texto dentro do elemento footer */
+    margin-top: 20px; /* Adiciona uma margem superior para separar do conteúdo anterior */
+    padding-top: 10px; /* Adiciona preenchimento interno na parte superior */
+    border-top: 1px solid #ddd; /* Adiciona uma linha fina no topo do elemento */
+    justify-content:right;
+}
+
+
+.atribuição{
+display: flex;
+justify-content: center;
+gap: 70px;
+}
+
+.atribuição2{
+    
+        display: flex;
+        justify-content: center;
+        gap: 70px;
+        
+}
+p{
+    text-align: center;
+    text-decoration: none;
+    text-align: justify;
+
+}
+h3{
+    text-align: center;
+}
