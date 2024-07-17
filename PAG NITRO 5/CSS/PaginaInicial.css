@@ -1,0 +1,102 @@
+body {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(74, 62, 62) ; /* Cor de fundo para a página */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Define a altura mínima da página como 100% da altura da viewport */
+    font-size: 130%;
+    font-style: italic;
+}
+
+.img {
+    background-color: rgb(74, 62, 62); /* Cor de fundo para a barra de navegação */
+    color: #fff; /* Cor do texto na barra de navegação */
+}
+
+nav {
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end; /* Alinha os itens da navegação à direita */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: red; /* Cor do texto ao passar o mouse */
+}
+
+.Titulo {
+    color: #fff;
+    text-align: center;
+}
+
+header h1:hover {
+    color: red; /* Cor do texto ao passar o mouse */
+}
+
+.conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(74, 62, 62); /* Cor de fundo para o conteúdo principal */
+    margin: 20px;
+    border-radius: 8px; /* Borda arredondada para o conteúdo principal */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para o conteúdo principal */
+}
+
+main img {
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para o conteúdo principal */
+    height: 300px; /* Ajuste a altura conforme necessário */
+    display: block; /* Garante que a imagem seja exibida como bloco */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+}
+
+main span {
+    flex: 1; /* Ocupa todo o espaço restante */
+    margin-left: 20px; /* Espaçamento à esquerda do texto */
+    color: #333; /* Cor do texto principal */
+    text-align: justify;
+}
+
+/* Mantenha o seu CSS existente */
+
+.final-da-página {
+    text-align: center;
+    padding-top: 10px;
+    background-color: rgb(74, 62, 62); /* Cor de fundo para o rodapé */
+    color: #fff;
+    padding: 10px;
+    margin-top: auto; /* Faz com que o rodapé se fixe no final da página */
+    transition: color 0.3s ease; /* Adiciona transição suave para a mudança de cor */
+}
+
+.final-da-página:hover {
+    color: red; /* Cor do texto ao passar o mouse */
+}
+
+.Descrição{
+    color: #fff;
+}
+
+.Descrição:hover {
+    color: red;
+}
