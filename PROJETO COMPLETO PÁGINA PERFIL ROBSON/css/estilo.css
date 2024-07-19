@@ -1,0 +1,112 @@
+
+* {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-style: italic;
+
+}
+
+body {
+    background-color: rgb(24, 23, 33);
+    color: white;
+}
+
+ul {
+    display: flex;
+    justify-content:right;
+    list-style: none;
+    padding: 16px;
+    gap: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(7, 182, 231);
+}
+
+header img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid rgb(7, 182, 231);
+}
+
+.img {
+    text-align: center;
+}
+
+h1 {
+    color: rgb(7, 182, 231);
+}
+
+footer img {
+    height: 40px;
+    width: 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+#imgsobremim{
+  text-align: center;
+}
+.imgsobremim{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid rgb(7, 182, 231);
+}
+
+#footersobremim{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 0%;
+}
+
+.footersobremim{
+border: solid rgb(7, 182, 231);
+padding: 5px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+border-radius: 200px;
+}
+
+#conteinerSobremim{
+    text-align: justify;
+    font-style: italic;
+}
+.sec1{
+    text-indent: 70px;
+    text-align:justify;
+}
+.Voltar{
+    display: block;
+    margin-top: 200px;
+}
+.AcerNitro5{
+    display: block;
+    margin-top: 5px;
+}
+
+#Voltar{
+    text-align: center;
+}
+.email{
+    margin-bottom: 10px;
+}
+.senha{
+    margin-bottom: 15px;
+}
+.Enviar{
+    margin-top: 15px;
+}
