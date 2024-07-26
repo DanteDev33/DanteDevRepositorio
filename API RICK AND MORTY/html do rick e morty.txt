@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick and Morty API</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+
+<body>
+    <header class="title">
+        <h1>Encontre Seu Personagem de Rick and Morty</h1>
+    </header>
+
+    <main class="container">
+        <div class="character">
+            <input type="text" id="characterInput" placeholder="Digite o ID do personagem" min="1">
+            <button id="fetchCharacterButton" class="buttonCharacter">Buscar</button>
+        </div>
+        <div class="character-details" id="characterDetails"></div>
+    </main>
+
+    <footer>
+        <div class="pai">
+            <div class="card">
+                <img src="../assets/Rick-And-Morty-PNG-Photos.png" alt="Card 1">
+            </div>
+            <div class="card">
+                <img src="../assets/7fb8f62a64d2e9a0d93e3dfaaeb474a3.jpg" alt="Card 2">
+            </div>
+            <div class="card">
+                <img src="../assets/Bang_Sangho_06.webp" alt="Card 3">
+            </div>
+        </div>
+        <p>&copy; Todos os direitos reservados à Robson Rosa da Silva.</p>
+    </footer>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

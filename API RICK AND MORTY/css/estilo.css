@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Oswald:wght@200..700&display=swap');
+
+/* Estilo global */
+* {
+    font-family: "Oswald", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* Estilo do cabeçalho */
+header.title {
+    text-align: center;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.9); 
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+header.title h1 {
+    font-size: 2.5em;
+    color: #333333;
+}
+
+/* Estilo do main */
+main.container {
+    text-align: center;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+/* Estilo dos inputs de personagem */
+#characterInput {
+    margin-right: 20px;
+    border-radius: 8px;
+    padding: 14px;
+    width: 40%;
+    border: 1px solid #ddd;
+    background-color: #ffffff;
+    color: #333333;
+    font-size: 1em;
+}
+
+#characterInput:focus {
+    border-color: #007BFF;
+    outline: none;
+    box-shadow: none;
+}
+
+/* Estilo dos botões */
+.buttonCharacter {
+    border-radius: 8px;
+    padding: 14px 30px;
+    border: none;
+    background-color: #007BFF;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-size: 1em;
+}
+
+.buttonCharacter:hover {
+    background-color: #0056b3; 
+    transform: scale(1.05);
+}
+
+/* Estilo do footer */
+footer {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-top: none;
+    border-radius: 15px;
+    margin-top: 40px;
+}
+
+footer .pai {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+footer .card {
+    width: 280px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #4B0082, #000000, #00BFFF); 
+}
+
+footer .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+footer .card img:hover {
+    transform: scale(1.05);
+}
+
+footer p {
+    color: #333333;
+    font-size: 0.9em;
+}
+
+/* Estilo dos detalhes do personagem */
+.character-details {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); 
+    border-radius: 12px;
+}
+
+/* Estilo da imagem no script */
+.imgScript {
+    display: block;
+    justify-content: center;
+}
+
+.imgScript img {
+    margin-top: 2%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.imgScript img:hover {
+    transform: scale(1.1);
+}
+
+.pScript {
+    padding-top: 20px;
+    font-size: large;
+}

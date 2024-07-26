@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Oswald:wght@200..700&display=swap');
+
+/* Estilo global */
+* {
+    font-family: "Oswald", sans-serif;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.95)), url('https://th.bing.com/th/id/OIP.uQU-4l7kic-YUGFTz9GyQgHaEK?rs=1&pid=ImgDetMain');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do cabeçalho */
+header.title {
+    text-align: center;
+    padding: 40px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+/* Estilo do main */
+.container {
+    text-align: center;
+    padding: 40px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilo dos inputs de personagem */
+#characterInput {
+    margin-right: 20px;
+    border-radius: 10px;
+    padding: 14px;
+    width: 30%;
+    transition: width 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #555;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    background-color: #333;
+}
+
+#characterInput:focus {
+    width: 35%;
+    border-color: #007BFF;
+    outline: none;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Estilo dos botões */
+.buttonCharacter {
+    border-radius: 10px;
+    padding: 14px 30px;
+    border: none;
+    background-color: #444;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+    font-size: 1.1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.buttonCharacter:hover {
+    background-color: #555;
+    color: #FFD700;
+    transform: scale(1.05);
+}
+
+/* Estilo do footer */
+footer {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 40px;
+    margin-top: 40px;
+    border-top: 2px solid #555;
+    border-radius: 15px;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.4);
+}
+
+footer p {
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+/* Estilo dos cards */
+.pai {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.card {
+    width: 420px;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 20px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6);
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.card img:hover {
+    transform: scale(1.1);
+}
+
+/* Estilo dos detalhes do personagem */
+.character-details {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilo da imagem no script */
+.imgScript {
+    display: block;
+    justify-content: center;
+}
+
+.imgScript img {
+    margin-top: 2%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.imgScript img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.pScript {
+    padding-top: 20px;
+    font-size: large;
+    object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
