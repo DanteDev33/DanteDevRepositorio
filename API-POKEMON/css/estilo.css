@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Oswald:wght@200..700&display=swap');
+
+/* Estilo global */
+* {
+    font-family: "Oswald", sans-serif;
+    
+    color: black
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do cabeçalho */
+header.title {
+    text-align: center;
+    padding: 30px;
+}
+
+/* Estilo do main */
+.container {
+    text-align: center;
+    padding: 30px;
+}
+
+.pokemonImagem img {
+    height: 220px;
+    width: 330px;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 3%;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+.pokemonImagem img:hover {
+    height: 320px;
+    width: 440px;
+    object-fit: cover;
+    transform: scale(1.1);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.6);
+}
+
+.pokemon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#pokemonInput {
+    margin-right: 20px;
+    border-radius: 5px;
+    padding: 12px;
+    width: 25%;
+    transition: width 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #ddd;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    color: black; /* Define a cor do texto como branco */
+}
+
+#pokemonInput::placeholder {
+    color: black; /* Define a cor do placeholder como branco */
+   font-size: large;
+}
+
+#pokemonInput:focus {
+    width: 30%;
+    border-color: #007BFF;
+    outline: none;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.buttonPokemon {
+    border-radius: 5px;
+    padding: 12px 25px;
+    border: none;
+    background-color: #333;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+    font-size: 1em;
+}
+
+.buttonPokemon:hover {
+    background-color: #000;
+    color: #FFD700;
+    transform: scale(1.05);
+}
+
+/* Estilo do footer */
+footer {
+    text-align: center;
+    background-color: rgba(240, 240, 240, 0.8);
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 15px;
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.2);
+}
+
+footer p {
+    margin-top: 30px;
+    color: black;
+}
+
+/* Estilo dos cards 
+.pai {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.card {
+    width: 420px;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 20px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.6);
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.card img:hover {
+    transform: scale(1.1);
+}
+
+.pScript {
+    font-size: large;
+    font-weight: bolder;
+}
+*/
